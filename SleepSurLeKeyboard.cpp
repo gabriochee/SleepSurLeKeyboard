@@ -1,15 +1,15 @@
 #include <iostream>
 #include <string>
 
-// z décalage bit à droite
-// Z décalage bit à gauche
-// zz décalage octet à droite
-// ZZ décalage octet à gauche
-// zzz incrémente l'octet actuel
-// ZZZ décrémente l'octet actuel
+// z right bit shift
+// Z left bit shift
+// zz right byte shift
+// ZZ left byte shift
+// zzz increment current byte
+// ZZZ decrement current byte
 // zZ or Zz flip current bit
-// zzzz si l'octet est égal à 0, on saute au prochain ZZZZ
-// ZZZZ si l'octet est différent de 0
+// zzzz if current byte is at 0 then jump to the next ZZZZ
+// ZZZZ if current byte is different from 0 then jump back to the previous zzzz
 
 int main()
 {
