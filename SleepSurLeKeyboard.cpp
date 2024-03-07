@@ -106,27 +106,31 @@ int main()
 			break;
 		case FUNC_NUM_MID + 4:
 			if (arr[ptr] == 0) {
+				boucle_counter = 0;
+				i++;
 				while (instructions_tape[i] != FUNC_NUM_MID - 4 || boucle_counter != 0) {
-					i++;
 					if (instructions_tape[i] == FUNC_NUM_MID + 4) {
 						boucle_counter++;
 					}
 					else if (instructions_tape[i] == FUNC_NUM_MID - 4 && boucle_counter > 0) {
 						boucle_counter--;
 					}
+					i++;
 				}
 			}
 			break;
 		case FUNC_NUM_MID - 4:
 			if (arr[ptr] != 0) {
+				boucle_counter = 0;
+				i--;
 				while (instructions_tape[i] != FUNC_NUM_MID + 4 || boucle_counter != 0) {
-					i--;
 					if (instructions_tape[i] == FUNC_NUM_MID - 4) {
 						boucle_counter++;
 					}
 					else if (instructions_tape[i] == FUNC_NUM_MID + 4 && boucle_counter > 0) {
 						boucle_counter--;
 					}
+					i--;
 				}
 			}
 			break;
