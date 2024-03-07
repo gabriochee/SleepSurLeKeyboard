@@ -1,7 +1,5 @@
 **No further development is planned around it.**
 
-The language is designed for ones who would fall asleep on the k...   *Z z Z z Z z Z z Z*
-
 This esoteric programming language let you have control over bits and bytes and even let you do boucles !
 
 Here is how to write "**Hello World!**" :
