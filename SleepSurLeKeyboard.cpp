@@ -19,7 +19,7 @@ int main()
 
 	const uint8_t FUNC_NUMBER = 8;
 	const uint8_t FUNC_NUM_MID = FUNC_NUMBER / 2;
-	const uint8_t ARRAY_LENGTH = 10000;
+	const uint16_t ARRAY_LENGTH = 10000;
 	const uint16_t last_instr = 0;
 
 	uint8_t bit_ptr = 0;
