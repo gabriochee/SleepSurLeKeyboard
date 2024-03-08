@@ -1,6 +1,8 @@
-**No further development is planned around it.**
+# **No further development is planned around it.**
 
-This esoteric programming language let you have control over bits and bytes and even let you do boucles !
+## Presenting : *SleepSurLeKeyboard* 💤😴
+
+This esoteric programming language inspired by tiredness will let you unleash all the potential of sleep into your code.
 
 Here is how to write "**Hello World!**" :
 
