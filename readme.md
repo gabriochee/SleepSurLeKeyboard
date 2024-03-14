@@ -1,4 +1,4 @@
-# Presenting : *SleepSurLeKeyboard* 💤😴
+# Introducing : *SleepSurLeKeyboard* 💤😴
 
 This esoteric programming language inspired by tiredness will let you unleash all the potential of sleep into your code.
 
